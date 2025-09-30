@@ -1,222 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
 
     <title>SaTS’25</title>
 </head>
+
 <body>
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="index.html">SaTS 2025</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">SaTS 2025</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <!-- <li class="nav-item">
-                <a class="nav-link" href="#program">Program</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#keynote">Keynote</a>
-            </li> -->
-            <li class="nav-item">
-                <a class="nav-link" href="#cfp">Call for Papers</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#organization">Organization</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://superappsec.github.io/2024/">SaTS 2024</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://superappsec.github.io/2023/">SaTS 2023</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#program">Program</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#keynote">Keynote</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cfp">Call for Papers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#organization">Organization</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://superappsec.github.io/2024/">SaTS 2024</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://superappsec.github.io/2023/">SaTS 2023</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-<main role="main">
+    <main role="main">
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-        <div class="container">
-            <div class="myblock">
-                <h1 class="display-2 text-white">SaTS 2025</h1>
-                <h1 class="display-5 text-white">ACM Workshop on Security and Privacy of AI-Empowered Mobile Super Apps (SaTS ’25)</h1>
-                <h2 class="text-white">Co-located with <a class="btn btn-primary btn-lg"
-                        href="https://www.sigsac.org/ccs/CCS2025/" target="_blank" role="button">ACM CCS 2025
-                        &raquo;</a></h2>
-                <h2 class="text-white">October 13th, 2025</h2>
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="container">
+                <div class="myblock">
+                    <h1 class="display-2 text-white">SaTS 2025</h1>
+                    <h1 class="display-5 text-white">ACM Workshop on Security and Privacy of AI-Empowered Mobile Super
+                        Apps (SaTS ’25)</h1>
+                    <h2 class="text-white">Co-located with <a class="btn btn-primary btn-lg"
+                            href="https://www.sigsac.org/ccs/CCS2025/" target="_blank" role="button">ACM CCS 2025
+                            &raquo;</a></h2>
+                    <h2 class="text-white">October 13th, 2025</h2>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="container">
-        <p style="font-size: 1.3rem;">
-          Mobile super apps present an emerging paradigm in the realm of mobile computing. These applications, which offer a plethora of services often in the form of “miniapps”, have experienced an accelerated growth trajectory in recent years. Specifically, the miniapps, analogous to native apps, have enabled super apps to construct a comprehensive ecosystem around themselves, akin to Google Play and the Apple App Store. By doing so, they not only enhance the host's functionalities, but also bestow an elevated level of convenience upon mobile users. Nevertheless, the surging popularity of these apps, such as WeChat, Alipay, TikTok, and Grab, has resulted in an immense volume of user data being generated, stored, and transmitted via these platforms. With their integration of diverse services within a single platform or application, these super apps pose significant security and privacy challenges. This burgeoning issue has caught the attention of not just users, but also researchers and regulatory authorities.
-          <br><br>
-          Building on this evolving landscape, the integration of large language models (LLMs) into mobile apps opens a new research frontier, generating an unforeseen paradigm of LLM-empowered mobile super apps. Many of such LLM-driven apps, acting as autonomous agents with broad privileges, offer enhanced functionality by managing traditional miniapps, traditional mobile apps, and any other external tools (e.g., smart-home devices, third-party Web services) accessible to the super apps. Yet, this evolution also presents significant challenges, including potential data exposure and heightened cybersecurity risks. Addressing these concerns calls for new studies in secure architecture design, permission management, root trust frameworks, and innovative threat models for LLM-enabled mobile super app and super app development ecosystems.
-          <br><br>
-          In light of these developments, the ACM Workshop on Security and Privacy of AI-Empowered Mobile Super Apps (SaTS 2025), co-located with ACM CCS 2025, is a highly relevant and timely event. Super apps are rapidly becoming indispensable tools for communication, entertainment, and commerce, while simultaneously raising crucial security and privacy issues. By fostering discussion and collaboration among researchers and practitioners, this workshop aims to address these concerns and provide insights and solutions to the security community, industry, and society at large. The objective of SaTS 2025 is to turn the spotlight on these concerns and foster an environment of knowledge exchange and problem-solving.
-        </p>
-        <br>
+        <div class="container">
+            <p style="font-size: 1.3rem;">
+                Mobile super apps present an emerging paradigm in the realm of mobile computing. These applications,
+                which offer a plethora of services often in the form of “miniapps”, have experienced an accelerated
+                growth trajectory in recent years. Specifically, the miniapps, analogous to native apps, have enabled
+                super apps to construct a comprehensive ecosystem around themselves, akin to Google Play and the Apple
+                App Store. By doing so, they not only enhance the host's functionalities, but also bestow an elevated
+                level of convenience upon mobile users. Nevertheless, the surging popularity of these apps, such as
+                WeChat, Alipay, TikTok, and Grab, has resulted in an immense volume of user data being generated,
+                stored, and transmitted via these platforms. With their integration of diverse services within a single
+                platform or application, these super apps pose significant security and privacy challenges. This
+                burgeoning issue has caught the attention of not just users, but also researchers and regulatory
+                authorities.
+                <br><br>
+                Building on this evolving landscape, the integration of large language models (LLMs) into mobile apps
+                opens a new research frontier, generating an unforeseen paradigm of LLM-empowered mobile super apps.
+                Many of such LLM-driven apps, acting as autonomous agents with broad privileges, offer enhanced
+                functionality by managing traditional miniapps, traditional mobile apps, and any other external tools
+                (e.g., smart-home devices, third-party Web services) accessible to the super apps. Yet, this evolution
+                also presents significant challenges, including potential data exposure and heightened cybersecurity
+                risks. Addressing these concerns calls for new studies in secure architecture design, permission
+                management, root trust frameworks, and innovative threat models for LLM-enabled mobile super app and
+                super app development ecosystems.
+                <br><br>
+                In light of these developments, the ACM Workshop on Security and Privacy of AI-Empowered Mobile Super
+                Apps (SaTS 2025), co-located with ACM CCS 2025, is a highly relevant and timely event. Super apps are
+                rapidly becoming indispensable tools for communication, entertainment, and commerce, while
+                simultaneously raising crucial security and privacy issues. By fostering discussion and collaboration
+                among researchers and practitioners, this workshop aims to address these concerns and provide insights
+                and solutions to the security community, industry, and society at large. The objective of SaTS 2025 is
+                to turn the spotlight on these concerns and foster an environment of knowledge exchange and
+                problem-solving.
+            </p>
+            <br>
 
-        <hr>
-        <br>
-        <h1>Important Dates (hard deadline)</h1>
-        <br>
-        <table class="table table-striped">
-        <tbody>
-        <tr>
-        <td style="font-size: 1.3rem">Paper Submission Deadline</td>  
-            <td style="font-size: 1.3rem"><s>June 20th, 2025 (AoE, UTC-12)</s> <s>July 9th, 2025 (AoE, UTC-12)</s> July 16th, 2025 (AoE, UTC-12)</td>
-        </tr>
-        <tr>
-        <td style="font-size: 1.3rem">Acceptance Notification</td> 
-            <td style="font-size: 1.3rem"><s>August 8th, 2025</s> August 17th, 2025</td>
-        </tr>
-        <tr>
-        <td style="font-size: 1.3rem">Camera-ready Deadline</td> 
-            <td style="font-size: 1.3rem">August 22nd, 2025 (AoE, UTC-12)</td>
-        </tr>
-        <tr>
-        <td style="font-size: 1.3rem">Workshop</td>
-        <td style="font-size: 1.3rem">October 13th, 2025</td>
-        </tr>
-        </tbody>
-        </table>
-        <br> 
-      
-        <hr>
-        <h2 id="cfp" class="text-white" style="visibility: hidden">cfp anchor</h2>
-        <h1>Call for Papers</h1>
-        <p style="font-size: 1.3rem">
-          Emerging AI and LLM-powered mobile super apps—offering a range of functionalities through integrated external tools and traditional miniapps—have experienced rapid growth in recent years. Platforms such as Operator (by OpenAI), WeChat, Slack, TikTok and Alipay unite various external tools and miniapps to deliver services like payments, search, communication, and entertainment, thereby significantly enhancing functionalities and user convenience. However, the integration of these external tools and miniapps also introduces substantial security and privacy concerns, as large amounts of user data are generated, stored, and transmitted across interconnected systems.
-          <br><br>
+            <hr>
+            <br>
+            <h1>Important Dates (hard deadline)</h1>
+            <br>
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <td style="font-size: 1.3rem">Paper Submission Deadline</td>
+                        <td style="font-size: 1.3rem"><s>June 20th, 2025 (AoE, UTC-12)</s> <s>July 9th, 2025 (AoE,
+                                UTC-12)</s> July 16th, 2025 (AoE, UTC-12)</td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 1.3rem">Acceptance Notification</td>
+                        <td style="font-size: 1.3rem"><s>August 8th, 2025</s> August 17th, 2025</td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 1.3rem">Camera-ready Deadline</td>
+                        <td style="font-size: 1.3rem">August 22nd, 2025 (AoE, UTC-12)</td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 1.3rem">Workshop</td>
+                        <td style="font-size: 1.3rem">October 13th, 2025</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
 
-          Building on this evolving landscape, the integration of large language models (LLMs) into mobile apps opens a new research frontier, generating an unforeseen paradigm of LLM-empowered mobile super apps. These LLM-driven apps, acting as autonomous agents with broad privileges, offer enhanced functionality by managing traditional miniapps, traditional mobile apps, and any other external tools (e.g., smart-home devices, third-party Web services) accessible to the super apps. Yet, this evolution also presents significant challenges, including potential data exposure and heightened cybersecurity risks. Addressing these concerns calls for new studies in secure architecture design, permission management, root trust frameworks, and innovative threat models for LLM-enabled mobile super app and super app development ecosystems.
-          <br><br>
+            <hr>
+            <h2 id="keynote" class="text-white" style="visibility: hidden">Keynote anchor</h2>
+            <h1>Keynote</h1>
+            <br>
+            <h3>Title: Time to Deprecate Permissions? A Look at the Present and Future of Permissions</h3>
+            </p>
+            <b style="font-size: 17px;">Keynote Speaker: Dr. Mihai Christodorescu, Google.</b>
+            <br>
+            </p>
 
-          We invite researchers and practitioners to submit original research papers for the new  edition of the Workshop on Security and Privacy of AI-Empowered Mobile Super Apps (SaTS 2025), co-located with ACM CCS 2025 (see last year’s workshop at https://superappsec.github.io/2024/). The aim of this workshop is to bring together experts from academia and industry to discuss and address the security and privacy challenges posed by the increasing use of AI-empowered mobile super apps.
+            <p style="font-size: 1.3rem;">
+                <b>Abstract:</b> <br>
+                Permissions form the bedrock of computer security, enabling precise control over data access for users. However, the paradigm is breaking under the weight of modern system complexities, diverse application models, and dynamic usage patterns. We are seeing a reactive explosion of permission updates across operating systems and applications, to introduce flexibility, context-awareness, and dynamic policies. This rapid, uncoordinated evolution has created a "permission maze": developers are frustrated by the sheer complexity of implementing and securing these intricate access scenarios, while users are overwhelmed by the cognitive load of understanding and managing ever-growing combinations of data access rights. The current trajectory of incremental improvements leads to friction, not security. To fundamentally reinvent permissions, we must shift away from treating permissions as a reactive, complex gatekeeping mechanism to a proactive, intuitive system. This talk’s argument centers on empowering users with permission models that can delegate control over data by aligning with user-defined goals and intentions.
+                <br><br>
 
-          <br><br>
-          <b>Topics of interest in this workshop include, but are not limited to, the following categories:</b><br>
-      </p>
-      <ul style="font-size: 1.3rem">
-          <li>LLM-Enabled Mobile (Super) Apps</li>
-          <li>Agentic apps (LLM-empowered apps) related external tools, traditional apps and mini-apps related to </li>
-          <li>Secure permission management for LLM-enabled super apps</li>
-          <li>Architecture and threat models for LLM-enabled super apps</li>
-          <li>Privacy-preserving techniques for mobile super apps (including their miniapps)
-</li>
-          <li>Security analysis of mobile super app ecosystems</li>
-          <li>Authentication and authorization mechanisms for super apps</li>
-          <li>Data protection and secure storage in super apps</li>
-          <li>Privacy policies, compliance, and regulations for mobile super apps</li>
-          <li>User behavior and privacy risk analysis</li>
-          <li>Surveillance and censorship in mobile super apps</li>
-          <li>Anonymity and pseudonymity in miniapp communication</li>
-          <li>Security and privacy issues in third-party integrations</li>
-          <li>Secure payment systems in mobile super apps</li>
-          <li>Case studies and real-world experiences with mobile super app security and privacy</li>
-      </ul>
+                <b>Bio:</b> <br>
+                Dr. Mihai Christodorescu is a Research Scientist at Google, where he focuses on software security and privacy, especially for the mobile domain. His research interests are in fundamental approaches to computer security and privacy problems by combining methods from multiple domains, from programming languages, to machine learning, behavioral modeling, and formal methods. Most recently, he focused on translating progress in user authentication to software service authentication and on designing cryptographic techniques to allow users to disclose their personal data in flexible ways. He received his Ph.D. in Computer Sciences from the University of Wisconsin–Madison in 2007. Dr. Christodorescu holds 25 patents and has published more than 35 papers in several international conferences and journals, including the IEEE Symposium on Security and Privacy (S&P), the ACM Conference on Computer and Communications Security (CCS), the USENIX Security Symposium, the Annual Computer Security Applications Conference (ACSAC), and many more.
+                <br><br>
 
-        <p style="font-size: 1.3rem">
-            In addition, topics of interest include, but are not limited to other emerging paradigms in mobile and ubiquitous computing, especially those related to LLM agents based mobile systems.
-            <br><br>
-            The PC will select a best paper award for work that distinguishes itself in advancing the security and privacy of mobile superapps/miniapps and emerging computing paradigms through novel insights, attacks or defenses.
-            <br><br>
-        </p>
-        <!-- <h3>Call for Demos</h3>
+                <hr>
+            <h2 id="cfp" class="text-white" style="visibility: hidden">cfp anchor</h2>
+            <h1>Call for Papers</h1>
+            <p style="font-size: 1.3rem">
+                Emerging AI and LLM-powered mobile super apps—offering a range of functionalities through integrated
+                external tools and traditional miniapps—have experienced rapid growth in recent years. Platforms such as
+                Operator (by OpenAI), WeChat, Slack, TikTok and Alipay unite various external tools and miniapps to
+                deliver services like payments, search, communication, and entertainment, thereby significantly
+                enhancing functionalities and user convenience. However, the integration of these external tools and
+                miniapps also introduces substantial security and privacy concerns, as large amounts of user data are
+                generated, stored, and transmitted across interconnected systems.
+                <br><br>
+
+                Building on this evolving landscape, the integration of large language models (LLMs) into mobile apps
+                opens a new research frontier, generating an unforeseen paradigm of LLM-empowered mobile super apps.
+                These LLM-driven apps, acting as autonomous agents with broad privileges, offer enhanced functionality
+                by managing traditional miniapps, traditional mobile apps, and any other external tools (e.g.,
+                smart-home devices, third-party Web services) accessible to the super apps. Yet, this evolution also
+                presents significant challenges, including potential data exposure and heightened cybersecurity risks.
+                Addressing these concerns calls for new studies in secure architecture design, permission management,
+                root trust frameworks, and innovative threat models for LLM-enabled mobile super app and super app
+                development ecosystems.
+                <br><br>
+
+                We invite researchers and practitioners to submit original research papers for the new edition of the
+                Workshop on Security and Privacy of AI-Empowered Mobile Super Apps (SaTS 2025), co-located with ACM CCS
+                2025 (see last year’s workshop at https://superappsec.github.io/2024/). The aim of this workshop is to
+                bring together experts from academia and industry to discuss and address the security and privacy
+                challenges posed by the increasing use of AI-empowered mobile super apps.
+
+                <br><br>
+                <b>Topics of interest in this workshop include, but are not limited to, the following
+                    categories:</b><br>
+            </p>
+            <ul style="font-size: 1.3rem">
+                <li>LLM-Enabled Mobile (Super) Apps</li>
+                <li>Agentic apps (LLM-empowered apps) related external tools, traditional apps and mini-apps related to
+                </li>
+                <li>Secure permission management for LLM-enabled super apps</li>
+                <li>Architecture and threat models for LLM-enabled super apps</li>
+                <li>Privacy-preserving techniques for mobile super apps (including their miniapps)
+                </li>
+                <li>Security analysis of mobile super app ecosystems</li>
+                <li>Authentication and authorization mechanisms for super apps</li>
+                <li>Data protection and secure storage in super apps</li>
+                <li>Privacy policies, compliance, and regulations for mobile super apps</li>
+                <li>User behavior and privacy risk analysis</li>
+                <li>Surveillance and censorship in mobile super apps</li>
+                <li>Anonymity and pseudonymity in miniapp communication</li>
+                <li>Security and privacy issues in third-party integrations</li>
+                <li>Secure payment systems in mobile super apps</li>
+                <li>Case studies and real-world experiences with mobile super app security and privacy</li>
+            </ul>
+
+            <p style="font-size: 1.3rem">
+                In addition, topics of interest include, but are not limited to other emerging paradigms in mobile and
+                ubiquitous computing, especially those related to LLM agents based mobile systems.
+                <br><br>
+                The PC will select a best paper award for work that distinguishes itself in advancing the security and
+                privacy of mobile superapps/miniapps and emerging computing paradigms through novel insights, attacks or
+                defenses.
+                <br><br>
+            </p>
+            <!-- <h3>Call for Demos</h3>
         <p style="font-size: 1.3rem">
             In addition to presentation of accepted papers, SaTS'23 will include a demo session that is designed to allow researchers to share demonstrations of their systems that bear security and privacy goals for mobile superapps/miniapps. Demos are not limited to attacks (e.g., novel or transparent designs of superapp systems are highly welcome as well).
             <br><br>
         </p> -->
-        <hr>
-        <h1>Submission Instructions</h1>
-        <p style="font-size: 1.3rem">
-            Submitted papers must be in English, unpublished, and must not be currently under review for any other publication. Submissions must be a PDF file in double-column ACM format (see <a href="https://www.acm.org/publications/proceedings-template">ACM Proceedings Template</a>, using the sigconf style). We accept (1) regular papers with up to 7 pages, (2) attack/defense demos with up to 2 pages. The page limits does not include bibliography and well-marked appendices, which can be up to 2 pages long. Note that reviewers are not required to read the appendices or any supplementary material. Authors should not change the font or the margins of the ACM format. The review process is double-blind. All papers must be in Adobe Portable Document Format (PDF) and submitted through the web submission form via HotCRP (submission link below).
+            <hr>
+            <h1>Submission Instructions</h1>
+            <p style="font-size: 1.3rem">
+                Submitted papers must be in English, unpublished, and must not be currently under review for any other
+                publication. Submissions must be a PDF file in double-column ACM format (see <a
+                    href="https://www.acm.org/publications/proceedings-template">ACM Proceedings Template</a>, using the
+                sigconf style). We accept (1) regular papers with up to 7 pages, (2) attack/defense demos with up to 2
+                pages. The page limits does not include bibliography and well-marked appendices, which can be up to 2
+                pages long. Note that reviewers are not required to read the appendices or any supplementary material.
+                Authors should not change the font or the margins of the ACM format. The review process is double-blind.
+                All papers must be in Adobe Portable Document Format (PDF) and submitted through the web submission form
+                via HotCRP (submission link below).
 
-            <br><br>
-            <!-- Full Papers: 5 pages excluding references.<br>
+                <br><br>
+                <!-- Full Papers: 5 pages excluding references.<br>
             Demos: 1 page (with "Demo:" in the title).<br> -->
-            <br><a class="btn btn-primary btn-lg" target="_blank" role="button" href="https://sats2025.hotcrp.com">Submission Website &raquo;</a>
-            <!-- <br><a class="btn btn-primary btn-lg" target="_blank" role="button">Submission Website (coming soon) &raquo;</a> -->
-        </p>
-        
-
-        <h2 id="organization" class="text-white" style="visibility: hidden">Organization anchor</h2>
-        <hr>
-        <h1>Organization</h1>
-        <br>
-        <h3>Steering Committee</h3>
-        <p style="font-size: 1.3rem"><a href="https://adamdoupe.com/">Adam Doupe</a> (Arizona State University, USA)</p> 
-        <p style="font-size: 1.3rem"><a href="https://web.cse.ohio-state.edu/~lin.3021/">Zhiqiang Lin</a> (The Ohio State University, USA)</p>
-        <p style="font-size: 1.3rem"><a href="https://www.securitee.org/">Nick Nikiforakis</a> (Stony Brook University)</p> 
-        <p style="font-size: 1.3rem"><a href="https://cispa.de/en/people/ben.stock">Ben Stock</a> (CISPA)</p> 
-        <p style="font-size: 1.3rem"><a href="https://www.xing-luyi.com/">Luyi Xing</a> (University of Illinois Urbana-Champaign, USA)</p>
-        
-        <br>
-        <h3>Program Committee Chairs</h3>
-        <p style="font-size: 1.3rem"><a href="https://www.xing-luyi.com/">Luyi Xing</a> (University of Illinois Urbana-Champaign, USA)</p>
-        <p style="font-size: 1.3rem"><a href="https://sites.google.com/view/yue-xiao/">Yue Xiao</a> (IBM Research, USA)</p>
-
-        <br>
-        <h3>Publicity Chair</h3>
-        <p style="font-size: 1.3rem"><a href="https://frostwing98.com/">Yuqing Yang</a> (CISPA)</p>
+                <br><a class="btn btn-primary btn-lg" target="_blank" role="button"
+                    href="https://sats2025.hotcrp.com">Submission Website &raquo;</a>
+                <!-- <br><a class="btn btn-primary btn-lg" target="_blank" role="button">Submission Website (coming soon) &raquo;</a> -->
+            </p>
 
 
-        <br>
-        <h3>Program Committee</h3>
-        <p style="font-size: 1.3rem"><a href="https://www.adwaitnadkarni.com/">Adwait Nadkarni</a> (William & Mary, USA)</p>
-        <p style="font-size: 1.3rem"><a href="https://marapapman.github.io/">Ding Li</a> (Peking University, China)</p>
-        <p style="font-size: 1.3rem"><a href="https://kaushalkafle.com/">Kaushal Kafle</a> (University of South Florida, USA)</p>
-        <p style="font-size: 1.3rem"><a href="https://alrawi.io/">Omar Alrawi</a> (Georgia Institute of Technology, USA)</p>
-        <p style="font-size: 1.3rem"><a href="https://sites.google.com/view/yue-xiao/">Yue Xiao</a> (IBM Research, USA)</p>
-        <p style="font-size: 1.3rem"><a href="https://yue.zyueinfosec.com/">Yue Zhang</a> (Drexel University, USA)</p>
-        <p style="font-size: 1.3rem"><a href="https://web.cse.ohio-state.edu/~lin.3021/">Zhiqiang Lin</a> (The Ohio State University, USA)</p>
-        <p style="font-size: 1.3rem"><a href="https://xusheng-xiao.github.io/">Xusheng Xiao</a> (Arizona State University, USA)</p>
-        <p style="font-size: 1.3rem"><a href="https://www.trentjaeger.com/">Trent Jaeger</a> (University of California, Riverside, USA)</p>
-        <p style="font-size: 1.3rem"><a href="https://frostwing98.com/">Yuqing Yang</a> (CISPA)</p>
-        
-        <br>
-    </div> <!-- /container -->
-</main>
+            <h2 id="organization" class="text-white" style="visibility: hidden">Organization anchor</h2>
+            <hr>
+            <h1>Organization</h1>
+            <br>
+            <h3>Steering Committee</h3>
+            <p style="font-size: 1.3rem"><a href="https://adamdoupe.com/">Adam Doupe</a> (Arizona State University, USA)
+            </p>
+            <p style="font-size: 1.3rem"><a href="https://web.cse.ohio-state.edu/~lin.3021/">Zhiqiang Lin</a> (The Ohio
+                State University, USA)</p>
+            <p style="font-size: 1.3rem"><a href="https://www.securitee.org/">Nick Nikiforakis</a> (Stony Brook
+                University)</p>
+            <p style="font-size: 1.3rem"><a href="https://cispa.de/en/people/ben.stock">Ben Stock</a> (CISPA)</p>
+            <p style="font-size: 1.3rem"><a href="https://www.xing-luyi.com/">Luyi Xing</a> (University of Illinois
+                Urbana-Champaign, USA)</p>
 
-<!-- Footer -->
-<footer class="page-footer font-small gray">
+            <br>
+            <h3>Program Committee Chairs</h3>
+            <p style="font-size: 1.3rem"><a href="https://www.xing-luyi.com/">Luyi Xing</a> (University of Illinois
+                Urbana-Champaign, USA)</p>
+            <p style="font-size: 1.3rem"><a href="https://sites.google.com/view/yue-xiao/">Yue Xiao</a> (IBM Research,
+                USA)</p>
 
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2025, SaTS. Under license to ACM</a>.
-    </div>
-    <!-- Copyright -->
+            <br>
+            <h3>Publicity Chair</h3>
+            <p style="font-size: 1.3rem"><a href="https://frostwing98.com/">Yuqing Yang</a> (CISPA)</p>
 
-</footer>
-<!-- Footer -->
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            <br>
+            <h3>Program Committee</h3>
+            <p style="font-size: 1.3rem"><a href="https://www.adwaitnadkarni.com/">Adwait Nadkarni</a> (William & Mary,
+                USA)</p>
+            <p style="font-size: 1.3rem"><a href="https://marapapman.github.io/">Ding Li</a> (Peking University, China)
+            </p>
+            <p style="font-size: 1.3rem"><a href="https://kaushalkafle.com/">Kaushal Kafle</a> (University of South
+                Florida, USA)</p>
+            <p style="font-size: 1.3rem"><a href="https://alrawi.io/">Omar Alrawi</a> (Georgia Institute of Technology,
+                USA)</p>
+            <p style="font-size: 1.3rem"><a href="https://sites.google.com/view/yue-xiao/">Yue Xiao</a> (IBM Research,
+                USA)</p>
+            <p style="font-size: 1.3rem"><a href="https://yue.zyueinfosec.com/">Yue Zhang</a> (Drexel University, USA)
+            </p>
+            <p style="font-size: 1.3rem"><a href="https://web.cse.ohio-state.edu/~lin.3021/">Zhiqiang Lin</a> (The Ohio
+                State University, USA)</p>
+            <p style="font-size: 1.3rem"><a href="https://xusheng-xiao.github.io/">Xusheng Xiao</a> (Arizona State
+                University, USA)</p>
+            <p style="font-size: 1.3rem"><a href="https://www.trentjaeger.com/">Trent Jaeger</a> (University of
+                California, Riverside, USA)</p>
+            <p style="font-size: 1.3rem"><a href="https://frostwing98.com/">Yuqing Yang</a> (CISPA)</p>
+
+            <br>
+        </div> <!-- /container -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small gray">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2025, SaTS. Under license to ACM</a>.
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
